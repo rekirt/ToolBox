@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="@android:color/holo_blue_light"
+    android:layout_height="match_parent"
+    tools:context="com.lc.toolbox.HomeActivity">
+
+
+    <com.lc.toolbox.CircleLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <ImageView
+            android:id="@+id/iv_center"
+            android:layout_width="wrap_content"
+            android:src="@mipmap/center"
+            android:layout_height="wrap_content" />
+        <ImageView
+            android:id="@+id/iv_qq"
+            android:layout_width="wrap_content"
+            android:src="@mipmap/qq"
+            android:layout_height="wrap_content" />
+
+        <ImageView
+            android:id="@+id/iv_qzone"
+            android:layout_width="wrap_content"
+            android:src="@mipmap/qzone"
+            android:layout_height="wrap_content" />
+        <ImageView
+            android:layout_width="wrap_content"
+            android:src="@mipmap/sina"
+            android:layout_height="wrap_content" />
+        <ImageView
+            android:layout_width="wrap_content"
+            android:src="@mipmap/weixin"
+            android:layout_height="wrap_content" />
+        <ImageView
+            android:layout_width="wrap_content"
+            android:src="@mipmap/circle"
+            android:layout_height="wrap_content" />
+    </com.lc.toolbox.CircleLayout>
+
+
+</RelativeLayout>
